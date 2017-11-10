@@ -76,3 +76,7 @@ for i, c in enumerate(C_list):
         
 clf_l1_LogitReg = LogisticRegression(C=1, penalty='l1', tol=0.0001, max_iter = 1000)
 logit_l1 = clf_l1_LogitReg.fit(train_set.iloc[:,2:], train_set.iloc[:,1])
+
+
+
+from NaiveNN import *
